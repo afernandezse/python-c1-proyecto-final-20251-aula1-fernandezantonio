@@ -1,1 +1,14 @@
-# Keep this directory in Git
+# Entornos virtuales
+venv/
+.venv/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Variables de entorno
+.env
+
+# Docker / sistema
+*.log
+.DS_Store

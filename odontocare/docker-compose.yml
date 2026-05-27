@@ -1,0 +1,27 @@
+services:
+
+  api_gateway:
+    build: ./api_gateway
+    ports:
+      - "5000:5000"
+
+  usuarios:
+    build: ./usuarios
+    ports:
+      - "5001:5000"
+    volumes:
+    - ./usuarios/db:/app/db
+
+  administracion:
+    build: ./administracion
+    ports:
+      - "5002:5000"
+    volumes:
+      - ./administracion/db:/app/db
+
+  citas:
+    build: ./citas
+    ports:
+      - "5003:5000"
+    volumes:
+      - ./citas/db:/app/db

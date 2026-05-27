@@ -1,0 +1,7 @@
+tipo	username	email	password	role	id_usuario	nombre	telefono	especialidad	direccion	estado
+usuario	admin_csv	admin_csv@odontocare.com	123456	admin		ACTIVO				ACTIVO
+paciente	101	Paciente CSV 2	34600222222		100	Paciente CSV 1	34600111111			ACTIVO
+paciente	200	Dr. CSV 1		Ortodoncia	101	Paciente CSV 2	34600222222			ACTIVO
+doctor	201	Dra. CSV 2		Endodoncia	200	Dr. CSV 1		Ortodoncia		ACTIVO
+doctor		Clínica CSV 1			201	Dra. CSV 2		Endodoncia		ACTIVO
+clinica		Clínica CSV 2			Avenida Central 25	Clínica CSV 1			Calle Mayor 10	ACTIVO
